@@ -61,7 +61,6 @@ h2{
 
 .quote .container{
     height: 70vh;
-    background-color: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
 
 .quote .phrase {
@@ -86,7 +85,7 @@ h2{
 
 .about{
     height: 70vh;
-    border: 1px solid red;
+    margin-bottom: 5px;
 }
 
 .who{
@@ -94,7 +93,6 @@ h2{
 }
 
 .about .container{
-    max-width: 100%;
     height: 100%;
 }
 
@@ -119,9 +117,73 @@ h2{
 }
 
 /* Productos */
-.productos{
-    border: 2px solid green;
+
+#prod{
+    height: 100%;
+    margin: 20px 0;
+    background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7);
+
 }
+
+#prod .container .row{
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+#prod .card{
+    object-fit: cover;
+    justify-self: center;
+    margin: auto;
+    border-radius: 30px;
+    background: none;
+}
+
+#prod .card:hover{
+    background: #eff7fd;
+
+}
+
+#prod span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Contacto */
+
+#contacto{
+    height: 80vh;  
+}
+
+#contacto img{
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 30px;
+    object-fit: cover;
+    box-sizing: content-box;
+}
+
+#contacto i{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#contacto .container{
+    height: 100%;
+}
+
+/* footer */
+#footer {
+    background: black;
+  }
+  
+  #footer a {
+    color: white;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+  
 
 /* Media Querys */
 
@@ -129,12 +191,26 @@ h2{
     #cent{
         font-size: 22px;
     }
+
     .quote .container{
         height: 60vh;
         background-color: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
     }
+
+    .about{
+        height: 100%;
+    }
+
     .who img{
         width: 390px;
+    }
+
+    #contacto img{
+        width: 320px;
+    }
+
+    #contacto{
+        height: 100%;
     }
 }
 
@@ -156,8 +232,46 @@ h2{
         height: 50vh;
         background-color: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
     }
-    
+
+    .about{
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
     .who img{
         width: 290px;
+    }
+
+    #contacto i{
+        font-size: 16px;
+    }
+
+    #contacto img{
+        width: 305px;
+    }
+
+    #About #wr{
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #prod #wr{
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #contacto #wr{
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .who img{
+        width: 250px;
+    }
+
+    #contacto i{
+        font-size: 13.5px;
     }
 }

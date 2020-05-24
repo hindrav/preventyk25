@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 
 
     <!-- Bootstrap CSS -->
@@ -104,13 +107,13 @@
         <div class="container">
             <div class="who">
                 <div class="row align-items-center mt-5">
-                    <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-sm-8 offset-sm-2">
+                    <div class="col-lg-4 offset-lg-1 col-md-5 offset-md-1 col-sm-8 offset-sm-2 col-10 offset-1">
                         <h2 id="wr">¿Quienes somos?</h2>
                         <p>Somos una Startup mexicana socialmente responsable.</p>
                         <p>Ponemos al alcance de nuestros clientes productos para prevenir el contagio de enfermedades y salvaguardar su salud.</p>
                         <p>Comprometidos con nuestra labor, garantizamos calidad en nuestros productos y puntualidad en el servicio de entrega.</p>
                     </div>
-                    <div class="col-lg-3 offset-lg-0 col-md-2 offset-md-0 col-sm-6 offset-sm-3 mt-3 col-6 offset-1">
+                    <div class="col-lg-4 offset-lg-1 col-md-2 offset-md-0 col-sm-6 offset-sm-3 mt-3 col-6 offset-1">
                         <img src="assets/images/about.png" alt="">
                     </div>
                 </div>
@@ -119,30 +122,37 @@
     </section>
     <!-- Quiénes somos -->
     <!-- Productos  -->
-    <section class="productos" id="Productos">
+    <section id="prod">
         <div class="container">
-            <div class="row">
+            <div class="row text-center mt-5 mb-5">
                 <div class="col">
+                    <h2 id="wr" class="mt-5">
+                        Productos disponibles
+                    </h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/ProductoSprayFront.jpeg" class="card-img-top" alt="...">
+                        <img src="assets/images/prod1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"><span>Sanitizante 1L</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/SanitizanteAtomizador.jpeg" class="card-img-top" alt="...">
+                        <img src="assets/images/prod2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"><span>Sanitizante Spray 1L</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/CubetaSanitizante.jpeg" class="card-img-top" alt="...">
+                        <img src="assets/images/prod3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text"><span>Sanitizante 10L</span></p>
                         </div>
                     </div>
                 </div>
@@ -150,6 +160,70 @@
         </div>
     </section>
     <!-- /Productos  -->
+    <!-- Clientes -->
+    <!-- <section id="clientes">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 id="wr">
+                        Clientes
+                    </h2>
+                    <p>
+                        Gracias por su preferencia
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- /Clientes -->
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <div class="row text-center mt-4">
+                <div class="col">
+                    <h2 id="wr">
+                        Contacto
+                    </h2>
+                    <p>
+                        Pregunte sin compromiso, obtendrá respuesta en un lapso menor a 60 minutos.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-5 offset-lg-1 col-md-6 offset-md-1 col-sm-8 offset-sm-2 col-10 offset-1 d-md-block d-none">
+                    <img src="assets/images/contacto2.jpg" alt="">
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-3 offset-md-0 col-sm-6 offset-sm-3 col-8 offset-2">  
+                    <i class="fas fa-phone"> Whatsapp: 55 5555 - 5555</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Contacto -->
+
+    <!-- footer -->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <a href="">Todos los derechos reservados</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- /footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
