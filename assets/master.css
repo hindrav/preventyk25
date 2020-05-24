@@ -84,7 +84,7 @@ h2{
 /* About */
 
 .about{
-    height: 70vh;
+    height: 50vh;
     margin-bottom: 5px;
 }
 
@@ -152,7 +152,7 @@ h2{
 /* Contacto */
 
 #contacto{
-    height: 80vh;  
+    height: 100%;  
 }
 
 #contacto img{
@@ -170,6 +170,10 @@ h2{
 
 #contacto .container{
     height: 100%;
+}
+
+#contacto span{
+    font-size: 20px;
 }
 
 /* footer */
@@ -202,7 +206,7 @@ h2{
     }
 
     .who img{
-        width: 390px;
+        width: 350px;
     }
 
     #contacto img{
@@ -213,6 +217,13 @@ h2{
         height: 100%;
     }
 }
+
+@media screen and (max-width: 812px){
+    .who img{
+        width: 305px;
+    }
+}
+
 
 @media screen and (max-width: 767px){
     h2{
@@ -247,7 +258,7 @@ h2{
     }
 
     #contacto img{
-        width: 305px;
+        width: 280px;
     }
 
     #About #wr{
@@ -264,7 +275,11 @@ h2{
         font-size: 32px !important;
         margin-bottom: 20px !important;
     }
+    #contacto span{
+        font-size: 18px;
+    }
 }
+
 
 @media screen and (max-width: 320px){
     .who img{
@@ -273,5 +288,13 @@ h2{
 
     #contacto i{
         font-size: 13.5px;
+    }
+
+    #contacto img{
+        width: 240px;
+    }
+    
+    #contacto span{
+        font-size: 15px;
     }
 }
