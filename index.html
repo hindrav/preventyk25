@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/master.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventyk</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -15,14 +15,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <script>
+        function msgone(){
+            alert("Primer producto");
+        }
+    </script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>Preventyk</title>
-  </head>
-  <body>
+</head>
+<body>
     <!-- Header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
@@ -36,46 +39,45 @@
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Quiénes somos?</a>
+                        <a class="nav-link" href="#About">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="#prod">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>  
             </div>      
         </div>
     </nav>
-    <!-- / Header -->
-
+    <!--/ Header -->
     <!-- Main -->
     <main id="main">
         <!-- Carousel -->
-        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="falase">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="assets/images/bg22.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/bg1.jpg" class="d-block w-100" alt="Mascarilla">
+                </div>
+                    <div class="carousel-item">
+                    <img src="assets/images/bg2.jpg" class="d-block w-100" alt="Hands">
                 </div>
                 <div class="carousel-item">
-                <img src="assets/images/bg11.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="assets/images/bg3.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/bg3.jpg" class="d-block w-100" alt="Gel">
                 </div>
             </div>
             <div class="overlay">
                 <div class="container">
                     <div class="row text-center align-items-center">
                         <div class="col-lg-12 offset-lg-0 col-md-12 offset-md-0 col-sm-8 offset-sm-2 col-12 offset-0">
-                            <h2 class="mb-3">Protégete</h2>
-                            <p id="desc1">
+                            <h1 class="mb-3">Protégete</h1>
+                            <h2 class="mb-4">
                                 Elimina el 99% de las bacterias con nuestros productos.
-                            </p>
+                            </h2>
                             <div class="col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-10 offset-sm-1 col-6 offset-3">
                                 <button type="button" class="btn btn-discov btn-block">Descubrir</button>
                             </div>
@@ -84,157 +86,408 @@
                 </div>
             </div>
         </div>
-        <!-- / Carousel -->
+        <!--/ Carousel -->
     </main>
-     <!-- / Main -->
-
-     <!-- Phrase -->
+    <!--/ Main -->
+    <!-- Phrase -->
     <section class="quote" id="Quote">
         <div class="container">
-            <div class="phrase">
-                <div id="cent" class="row text-center text-uppercase">
+            <div class="quote-phrase">
+                <div class="row text-center text-uppercase">
                     <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
-                        <p>"Aislados hoy, para que cuando volvamos a reunirnos no falte nadie"</p> 
+                        <h2>"Aislados hoy, para que cuando volvamos a reunirnos no falte nadie"</h2> 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-     <!--/ Phrase -->
-
-     <!-- Quiénes somos -->
+    <!--/ Phrase -->
+    <!--About-->
     <section class="about" id="About">
         <div class="container">
-            <div class="who">
-                <div class="row align-items-center mt-5">
-                    <div class="col-lg-4 offset-lg-1 col-md-6 offset-md-1 col-sm-8 offset-sm-2 col-10 offset-1">
-                        <h2 id="wr">¿Quienes somos?</h2>
+            <div class="about-who">
+                <div class="row align-items-center mb-4">
+                    <div class="col-lg-4 offset-lg-1 col-md-6 offset-md-1 col-sm-8 offset-sm-2 col-10 offset-1 mt-5">
+                        <h3>¿Quienes somos?</h3>
                         <p>Somos una Startup mexicana socialmente responsable.</p>
                         <p>Ponemos al alcance de nuestros clientes productos para prevenir el contagio de enfermedades y salvaguardar su salud.</p>
                         <p>Comprometidos con nuestra labor, garantizamos calidad en nuestros productos y puntualidad en el servicio de entrega.</p>
                     </div>
-                    <div class="col-lg-4 offset-lg-1 col-md-2 offset-md-0 col-sm-6 offset-sm-2 mt-3 col-6 offset-1">
+                    <div class="col-lg-4 offset-lg-1 col-md-2 offset-md-0 col-sm-6 offset-sm-2 mt-3 col-6 offset-1 mt-5">
                         <img src="assets/images/about.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Quiénes somos -->
-    <!-- Productos  -->
-    <section id="prod">
+    <!--/ About -->
+    <!-- Products -->
+    <section class="products" id="Prod">
         <div class="container">
-            <div class="row text-center mt-5 mb-5">
+            <div class="row text-center mt-2 mb-5">
                 <div class="col">
-                    <h2 id="wr" class="mt-5">
+                    <h3 class="mt-5">
                         Productos disponibles
-                    </h2>
+                    </h3>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+            <div class="row text-center align-items-center">
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/prod1.png" class="card-img-top" alt="...">
+                        <img src="assets/images/prod01.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text"><span>Sanitizante 1L</span></p>
+                          <h5 class="card-title">Tapete Sanitizador</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a class="btn btn-success" data-toggle="modal" data-target="#modalDesc1">Características</a>
                         </div>
-                    </div>
+                      </div>
                 </div>
-                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/prod2.png" class="card-img-top" alt="...">
+                        <img src="assets/images/prod02.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text"><span>Sanitizante Spray 1L</span></p>
+                          <h5 class="card-title">Gel Antibacterial</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc2">Características</a>
                         </div>
-                    </div>
+                      </div>
                 </div>
-                <div id="obcard" class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/prod3.png" class="card-img-top" alt="...">
+                        <img src="assets/images/prod03.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text"><span>Sanitizante 10L</span></p>
+                          <h5 class="card-title">Bata Quirúrgica</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc3">Características</a>
                         </div>
-                    </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/prod04.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cubeta de Sanitizante</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc4">Características</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/prod05.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sanitizador Atomizador</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc5">Características</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/prod06.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Spray Sanitizador</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc6">Características</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/Prod07.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cubreboca Unicapa</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc7">Características</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/prod08.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cubreboca Bicapa</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc8">Características</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/prod09.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cubreboca tipo concha</h5>
+                          <p class="card-text">Disponible.</p>
+                          <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modalDesc9">Características</a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /Productos  -->
-    <!-- Clientes -->
-    <!-- <section id="clientes">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <h2 id="wr">
-                        Clientes
-                    </h2>
-                    <p>
-                        Gracias por su preferencia
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img src="" alt="">
-                </div>
-                <div class="col">
-                    <img src="" alt="">
-                </div>
-                <div class="col">
-                    <img src="" alt="">
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Clientes -->
-    <!-- Contacto -->
-    <section id="contacto">
-        <div class="container">
-            <div class="row text-center mt-4">
-                <div class="col">
-                    <h2 id="wr">
-                        Contacto
-                    </h2>
-                    <p>
-                        Pregunte sin compromiso, obtendrá respuesta en un lapso menor a 60 minutos.
-                    </p>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-3 col-6 offset-1 d-md-block">
-                    <img src="assets/images/contacto2.jpg" alt="">
-                </div>
-                
-            </div>
-            <div class="row mb-5 mt-3">
-                    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-7 offset-sm-3 col-8 offset-2">  
-                        <i class="fas fa-phone"> Whatsapp 1:</i> <br> <span> 55 5555 - 5555 Arabey De Zenea</span>
+    <!--/ Products -->
+    <!-- Contact -->
+        <section class="contact" id="Contact">
+            <div class="container">
+                <div class="row text-center mt-4 pt-5">
+                    <div class="col">
+                        <h3>Contacto</h3>
+                        <p>
+                            Haga su cotización sin compromiso, obtendrá respuesta en un lapso menor a 60 minutos.
+                        </p>
                     </div>
-                    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-7 offset-sm-3 col-8 offset-2">  
-                        <i class="fas fa-phone"> Whatsapp 2:</i> <br> <span> 55 5555 - 5555 Shaddai Vázquez</span>
-                    </div>
+                </div>
+                <div class="row align-items-center">
+                </div>
+                <div class="row text-center align-items-center mt-3">
+                        <div class=" col-lg-3 offset-lg-2 col-md-3 col-sm-6 col-12 mb-3 mt-3">  
+                            <i class="fas fa-whatsapp"> Whatsapp</i> <br> 55 7983 - 8983 </a>
+                        </div>
+                        <div class=" col-lg-1 col-md-3 col-sm-6 col-12">
+                            <a href="https://wa.link/lqv2q3" target="_blank">CONTACTAR</a>
+                        </div>
+                        <div class=" col-lg-3 col-md-3 col-sm-6 col-12 mb-3 mt-3">  
+                            <i class="fas fa-facebook"> Facebook</i>
+                        </div>
+                        <div class=" col-lg-1 col-md-3 col-sm-6 col-12">  
+                            <a href="https://www.facebook.com/preventyk/" target="_blank">VISITAR</a>
+                        </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- / Contacto -->
-
-    <!-- footer -->
+        </section>
+    <!--/ Contact -->
+    <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
             <div class="row text-center">
                 <div class="col">
-                    <a href="">Todos los derechos reservados</a>
+                    <a href="">Preventyk. © All rights reserved</a>
                 </div>
             </div>
         </div>
-
     </footer>
-    <!-- /footer -->
+    <!--/ Footer -->
+
+
+    <!-- Modal -->
+        <!-- Producto 1 -->
+        <div class="modal" id="modalDesc1" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Tapete Sanitizador</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Para suela de calzado.</p>
+                <p>En una charola, vierta 500ML de uno de nuestros productos sanitizantes, coloque el tapete de hule espuma, espere un lapso de 1 minuto y retírelo.</p>
+                <p>Colóquese a la entrada del hogar, la oficina o negocio y pise el tapte antes de entrar y seque sus pies en cualquier jerga o paño.</p>
+                <p><b>No coloque cloro ya que puede dañar el tapete</b></p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="modal" id="modalDesc2" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Gel Antibacterial</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Presentación 1L</p>
+                <p>70% Alcohol</p>
+                <p>Elimina el 99.9% de las bacterias</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="modal" id="modalDesc3" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Bata Quirúrgica Desechable</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Usos principales</p>
+                <p>Elemento diseñado para la protección. <br> Producto desechable.</p>
+                <p>Información Técnica</p>
+                <p>
+                <b>Material: </b>Entretela elaborada con fibra poliéster y resina acrílica base agua de 30gr/m² <br>
+                <b>Medidas: </b>1.14m de largo x 67cm de ancho. <br>
+                <b>Costura: </b>Costura elaborada con hilo 100% poliester. <br>
+                <b>Color: </b>Azul <br>
+                <b>Contenido: </b>Unidad en bolsa individual   
+                </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="modal" id="modalDesc4" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Cubeta Sanitizante</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Presentación 20L</p>
+                <p>Desfinecta ambientes y superficies</p>
+                <p>Elimina hongos</p>
+                <p>Hipoalergénico</p>
+                <p>Resultados instantáneos</p>
+                <p>Auxiliar en la eliminación de virus y bacterias como el staphylococcus ,aureus, salmonella choleraesuis entre otros.</p>
+                <p><b>Ingredientes:</b> alcohol y benzalconio</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="modal" id="modalDesc5" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Sanitizante Atomizador</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Presentación 1L</p>
+                <p>Desfinecta ambientes y superficies</p>
+                <p>Elimina hongos</p>
+                <p>Hipoalergénico</p>
+                <p>Resultados instantáneos</p>
+                <p>Auxiliar en la eliminación de virus y bacterias como el staphylococcus ,aureus, salmonella choleraesuis entre otros.</p>
+                <p><b>Ingredientes:</b> alcohol y benzalconio</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="modal" id="modalDesc6" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Spray Sanitizador</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>Presentación 420ml</p>
+                <p>Desfinecta ambientes y superficies</p>
+                <p>Elimina hongos</p>
+                <p>Hipoalergénico</p>
+                <p>Resultados instantáneos</p>
+                <p>Auxiliar en la eliminación de virus y bacterias como el staphylococcus ,aureus, salmonella choleraesuis entre otros.</p>
+                <p><b>Ingredientes:</b> alcohol y benzalconio</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 7 -->
+        <div class="modal" id="modalDesc7" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Cubrebocas Unicapa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>1 Capa</p>
+                <p>Hecho de SMS</p>
+                <p><b>Color: </b> Blanco</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 8 -->
+        <div class="modal" id="modalDesc8" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Cubrebocas Bicapa</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p>2 Capas</p>
+                <p>Hecho de SMS</p>
+                <p><b>Color: </b> Azul</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Producto 9 -->
+        <div class="modal" id="modalDesc9" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Cubrebocas Tipo Concha</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <p><b>Composición: </b>Poliéster</p>
+                <p><b>Color: </b>Blanco</p>
+                <p><b>Diámetro: </b>38.1cm</p>
+                <p><b>Peso Máx: </b>145 g/cm²</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">¡Entendido!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--/ Producto 8  -->
+    <!--/Modal  -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
