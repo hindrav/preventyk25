@@ -26,7 +26,7 @@ h5{
 
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px !important;
+    font-size: 17px !important;
 }
 
 .btn-discov{
@@ -56,6 +56,7 @@ p{
 .quote-phrase,
 .quote-phrase .row,
 .about-who,
+.about-who .row,
 .about .container,
 .products{
     height: 100%;
@@ -97,7 +98,7 @@ p{
 
 .quote h2{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 23px !important;
+    font-size: 33px !important;
 }
 
 .quote-phrase .row{
@@ -132,8 +133,8 @@ p{
 
 .card-body{
     /* border: 1px solid rgb(199, 199, 199); */
-    border-radius: 25px !important;
-    margin: 30px 30px;
+    border-radius: 0 0 50px 50px !important;
+    margin: 5px 5px;
     background: hsl(240, 43%, 97%) !important;
 }
 
@@ -149,13 +150,24 @@ p{
 }
 
 .contact a{
-    background: white;
-    border: 1px solid white;
-    padding: 5px;
-    color: black;
-    border-radius: 10px;
-    min-width: 300px !important;
+    color: white;
     font-weight: 700;
+}
+
+.whatsapp a:hover{
+    color: #33b13a;
+}
+
+.instagram a:hover{
+    color: rgb(250, 175, 187);
+}
+
+.facebook a:hover{
+    color: rgb(182, 182, 252);
+}
+
+.gmail a:hover{
+    color: rgb(247, 108, 108);
 }
 
 /* Footer */
@@ -166,4 +178,79 @@ p{
 
 #footer a{
     color: white;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px){
+    
+    .about-who{ align-items: center; }
+    
+    .about{ height: 58vh; }
+    
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    
+    p{ font-size: 15px !important; }
+
+    h1{ font-size: 90px !important; }
+
+    #main .carousel-inner img {
+        max-height: 100vh;
+        object-fit: fill;
+    }
+    
+    #main .carousel-inner img { max-height: 100vh; }
+
+    .about{ height: 70vh; }
+
+    .about-who img{ width: 350px; }
+
+    .quote h2{ font-size: 29px !important; }
+    
+    #social{ padding-bottom: 30px; }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 321px){
+
+    p{ font-size: 14.8px !important; }
+
+    h1{ font-size: 50px !important; }
+
+    h2 { font-size: 16px !important; }
+    
+    .btn.btn-discov{ font-size: 15px; }
+
+    .about{ height: 100%; }
+
+    .about h3{ margin-top: 30px; }
+
+    .about-who img{ width: 280px; }
+
+    .quote .container{ height: 55vh; }
+
+    .quote h2{ font-size: 20px !important; }
+}
+
+@media (max-width: 320px){
+    p{ font-size: 14.8px !important; }
+
+    h1{ font-size: 50px !important; }
+
+    h2 { font-size: 16px !important; }
+    
+    .btn.btn-discov{ font-size: 15px; }
+
+    .about{ height: 100%; }
+
+    .about h3{ margin-top: 30px; }
+
+    .about-who img{ width: 240px; }
+
+    .quote .container{ height: 55vh; }
+
+    .quote h2{ font-size: 20px !important; }
+
 }
