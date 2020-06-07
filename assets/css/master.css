@@ -111,6 +111,11 @@ p{
 
 #About{
     background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7);
+    height: 100%;
+    padding-top: 60px;
+    margin-top: -60px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
 }
 
 .about{
@@ -123,6 +128,14 @@ p{
 }
 
 /* Products */
+
+#Prod {
+    padding-top: 60px;
+    margin-top: -60px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
 .card{
     border: 1px solid rgb(219, 219, 219) !important;
     border-radius: 0 0 50px 50px !important;
@@ -202,6 +215,20 @@ p{
     }
     
     #main .carousel-inner img { max-height: 100vh; }
+    
+    #About {
+        padding-top: 210px;
+        margin-top: -210px;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+    }
+
+    #Prod {
+        padding-top: 210px;
+        margin-top: -210px;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+    }
 
     .about{ height: 70vh; }
 
@@ -220,6 +247,20 @@ p{
     h1{ font-size: 50px !important; }
 
     h2 { font-size: 16px !important; }
+
+    #About {
+        padding-top: 210px;
+        margin-top: -210px;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+    }
+
+    #Prod {
+        padding-top: 210px;
+        margin-top: -210px;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+    }
     
     .btn.btn-discov{ font-size: 15px; }
 
@@ -232,6 +273,7 @@ p{
     .quote .container{ height: 55vh; }
 
     .quote h2{ font-size: 20px !important; }
+    
 }
 
 @media (max-width: 320px){
@@ -254,3 +296,6 @@ p{
     .quote h2{ font-size: 20px !important; }
 
 }
+
+/*  I found a solution about navigation on: Jump links and viewport positioning - http://nicolasgallagher.com/jump-links-and-viewport-positioning/demo/ */
+

@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-     <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
 
-     <!-- Scroll -->
+    <!-- Scroll -->
     <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
 
     <script>
@@ -37,7 +40,7 @@
     </script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
     <!-- Header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
@@ -48,19 +51,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" data-scroll href="#">Inicio</a>
+                        <a class="nav-link" data-scroll href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-scroll href="#About">¿Quiénes somos?</a>
+                        <a class="nav-link" data-scroll href="#About" data-toggle="collapse" data-target=".navbar-collapse.show">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Prod">Productos</a>
+                        <a class="nav-link" href="#Prod" data-toggle="collapse" data-target=".navbar-collapse.show">Productos</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Clientes</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#Contact">Contacto</a>
+                        <a class="nav-link" href="#Contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contacto</a>
                     </li>
                 </ul>  
             </div>      
