@@ -301,7 +301,7 @@ p{
 
 /* Animaciones */
 
-h1{
+#main h1{
     -webkit-animation: fadein 3.3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3.3s; /* Firefox < 16 */
      -ms-animation: fadein 3.3s; /* Internet Explorer */
@@ -339,7 +339,7 @@ h1{
     to   { opacity: 1; }
 }
 
-h2{
+#main h2{
     /* for chrome and safari*/
     -webkit-animation-duration: 1s;
     -webkit-animation-name: slidein;
