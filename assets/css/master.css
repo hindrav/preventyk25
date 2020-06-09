@@ -1,5 +1,7 @@
 body{
     overflow-x: hidden;
+    background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7);
+
 }
 
 h1{
@@ -46,8 +48,13 @@ p{
 }
 
 .btn-success{
+    /* border: 1px solid #ea9a96 !important; */
+    border: #e84a5f !important;
     border-radius: 15px !important;
     color: white !important;
+    /* background: #ea9a96 !important; */
+    font-weight: 700 !important;
+    background: #e84a5f !important;
 }
 
 #carousel .overlay .container,
@@ -97,8 +104,9 @@ p{
 }
 
 .quote h2{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 33px !important;
+    font-family: 'Lobster', sans-serif;
+    font-size: 48px !important;
+    text-transform: none !important;
 }
 
 .quote-phrase .row{
@@ -110,7 +118,8 @@ p{
 /* About */
 
 #About{
-    background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7);
+    /* background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7); */
+    background: white;
     height: 100%;
     padding-top: 60px;
     margin-top: -60px;
@@ -130,6 +139,7 @@ p{
 /* Products */
 
 #Prod {
+    background: linear-gradient(90deg,#ffffff, #ffffff 25%,#e2e5e7);
     padding-top: 60px;
     margin-top: -60px;
     -webkit-background-clip: content-box;
@@ -137,18 +147,24 @@ p{
 }
 
 .card{
-    border: 1px solid rgb(219, 219, 219) !important;
-    border-radius: 0 0 50px 50px !important;
-    background: none !important;
-    background: white !important;
+    /* border: 1px solid rgb(219, 219, 219) !important; */
+    border-radius: 50px 50px !important;
+    /* background: none !important; */
+    background: hsl(240, 43%, 97%) !important;
+    /* background: white !important; */
     margin: auto;
+    background: white !important;
 }
 
 .card-body{
     /* border: 1px solid rgb(199, 199, 199); */
     border-radius: 0 0 50px 50px !important;
-    margin: 5px 5px;
-    background: hsl(240, 43%, 97%) !important;
+    /* margin: 5px 5px; */
+    /* background: hsl(240, 43%, 97%) !important; */
+    /* background: linear-gradient(90deg,#3e888d, #25aa94 25%,#3e628b); */
+    /* background: #303960; */
+    background:#2a363b;
+    color: white;
 }
 
 .btn-success:hover{
@@ -234,7 +250,7 @@ p{
 
     .about-who img{ width: 350px; }
 
-    .quote h2{ font-size: 29px !important; }
+    .quote h2{ font-size: 37px !important; }
     
     #social{ padding-bottom: 30px; }
 
@@ -272,7 +288,7 @@ p{
 
     .quote .container{ height: 55vh; }
 
-    .quote h2{ font-size: 20px !important; }
+    .quote h2{ font-size: 25px !important; }
     
 }
 
@@ -293,7 +309,7 @@ p{
 
     .quote .container{ height: 55vh; }
 
-    .quote h2{ font-size: 20px !important; }
+    .quote h2{ font-size: 19px !important; }
 
 }
 
