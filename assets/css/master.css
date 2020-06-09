@@ -146,9 +146,14 @@ p{
     background-clip: content-box;
 }
 
+.card img{
+    border-radius: 80px 0 0 0 !important;
+
+}
+
 .card{
     /* border: 1px solid rgb(219, 219, 219) !important; */
-    border-radius: 50px 50px !important;
+    border-radius: 80px 0 50px 50px !important;
     /* background: none !important; */
     background: hsl(240, 43%, 97%) !important;
     /* background: white !important; */
@@ -252,7 +257,7 @@ p{
 
     .quote h2{ font-size: 37px !important; }
     
-    #social{ padding-bottom: 30px; }
+    /* #social{ padding-bottom: 30px; } */
 
 }
 
